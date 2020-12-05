@@ -1,0 +1,42 @@
+{
+	"workbench.colorTheme": "Dracula Soft",
+	"editor.fontSize": 14,
+	"editor.fontFamily": "'Operator Mono', Menlo, Monaco, 'Courier New', monospace",
+	"files.associations": {
+		"*.inc": "php",
+		"*.phtml": "php",
+		"*.mustache": "handlebars"
+	},
+	"workbench.startupEditor": "newUntitledFile",
+	"explorer.confirmDelete": false,
+	"window.newWindowDimensions": "inherit",
+	"workbench.editor.enablePreview": false,
+	"[mustache]": {},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"breadcrumbs.enabled": false,
+	"workbench.statusBar.visible": true,
+	"editor.renderWhitespace": "none",
+	"editor.renderControlCharacters": false,
+	"prettier.tabWidth": 3,
+	"prettier.useTabs": true,
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"gitlens.hovers.currentLine.over": "line",
+	"gitlens.mode.active": "zen",
+	"diffEditor.renderSideBySide": true,
+	"window.zoomLevel": 0,
+	"explorer.compactFolders": false,
+	"editor.maxTokenizationLineLength": 60000,
+	"[handlebars]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"editor.accessibilitySupport": "off",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true
+}
