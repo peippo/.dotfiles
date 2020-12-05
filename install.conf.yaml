@@ -1,3 +1,7 @@
+# Installing dependencies:
+- brewfile:
+     file: Brewfile
+
 # Setting up Visual Studio Code:
 - link:
      # vscode:
