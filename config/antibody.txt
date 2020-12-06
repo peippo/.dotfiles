@@ -1,0 +1,10 @@
+zsh-users/zsh-autosuggestions
+michaelxmcbride/zsh-dircycle
+rupa/z
+mafredri/zsh-async
+supercrabtree/k
+
+robbyrussell/oh-my-zsh path:lib
+
+sindresorhus/pure
+zdharma/fast-syntax-highlighting

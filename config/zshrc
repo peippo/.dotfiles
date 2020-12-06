@@ -1,0 +1,31 @@
+# Antibody plugin management
+autoload -Uz compinit && compinit -C
+antibody bundle < "$HOME/.antibody" > "$HOME/.zsh-plugins"
+source "$HOME/.zsh-plugins"
+
+# Node Version Manager
+export NVM_DIR="$HOME/.nvm"
+source "/usr/local/opt/nvm/nvm.sh"
+
+# Localization settings
+export LC_ALL="en_US.UTF-8"
+export LANG=en_US.UTF-8
+
+# Aliases
+alias ls="/usr/local/bin/gls --color -h --group-directories-first -F"
+alias g="git"
+alias ga="git add"
+alias gc="git commit"
+alias gd="git diff"
+alias grb="git rebase -i"
+alias gst="git status"
+alias gps="git push"
+alias gpl="git pull"
+
+# Less options
+export LESS="-iRFXMx4"
+export PAGER="less"
+export MANPAGER="less"
+
+# Use vscode as default editor
+export EDITOR="code -w"

@@ -1,6 +1,14 @@
+# Check for dead symbolic links
+- clean: ["~"]
+
 # Installing dependencies:
 - brewfile:
      file: Brewfile
+
+- link:
+     # Terminal:
+     "~/.zshrc": config/zshrc
+     "~/.antibody": config/antibody.txt
 
 # Setting up Visual Studio Code:
 - link:
