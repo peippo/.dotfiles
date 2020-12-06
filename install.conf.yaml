@@ -4,11 +4,17 @@
 # Installing dependencies:
 - brewfile:
      file: Brewfile
+     no-upgrage: true
 
 - link:
      # Terminal:
-     "~/.zshrc": config/zshrc
-     "~/.antibody": config/antibody.txt
+     ~/.zshrc: config/zshrc
+     ~/.antibody: config/antibody.txt
+
+     # Git:
+     ~/.gitconfig: config/gitconfig
+     ~/.gitignore_global: config/gitignore
+     ~/.gitattributes_global: config/gitattributes
 
 # Setting up Visual Studio Code:
 - link:
