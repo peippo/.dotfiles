@@ -13,14 +13,17 @@ export LANG=en_US.UTF-8
 
 # Aliases
 alias ls="/usr/local/bin/gls --color -h --group-directories-first -F"
+alias st="stree"
 alias g="git"
 alias ga="git add"
 alias gc="git commit"
 alias gd="git diff"
 alias grb="git rebase -i"
-alias gst="git status"
+alias gs="git status"
 alias gps="git push"
 alias gpl="git pull"
+alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias glg="gl -p"
 
 # Less options
 export LESS="-iRFXMx4"
