@@ -30,5 +30,8 @@ cask "font-source-code-pro-for-powerline"
 cask "quicklook-json"
 cask "spotify"
 cask "visual-studio-code"
+cask "maccy"
+cask "slack"
+cask "sketch"
 mas "Xcode", id: 497799835
 mas "Spark", id: 1176895641
