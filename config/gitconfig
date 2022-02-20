@@ -1,6 +1,6 @@
 [user]
 	name = Janne Peippo
-	email = peippo@lumous.com
+	email = peippo@gmail.com
 [core]
 	excludesfile = /Users/peippo/.gitignore_global
     attributesFile = ~/.gitattributes_global
