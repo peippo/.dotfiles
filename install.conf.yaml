@@ -2,6 +2,12 @@
 - clean: ["~"]
 
 # Installing dependencies:
+- defaults:
+    brewfile:
+      stdout: false
+      stderr: false
+      include: ['tap', 'brew', 'cask', 'mas']
+
 - brewfile:
     file: Brewfile
     no-upgrage: true
