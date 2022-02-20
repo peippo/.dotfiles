@@ -3,28 +3,28 @@
 
 # Installing dependencies:
 - brewfile:
-     file: Brewfile
-     no-upgrage: true
+    file: Brewfile
+    no-upgrage: true
 
 - link:
-     # Terminal:
-     ~/.zshrc: config/zshrc
-     ~/.antibody: config/antibody.txt
+    # Terminal:
+    ~/.zshrc: config/zshrc
+    ~/.antibody: config/antibody.txt
 
-     # Git:
-     ~/.gitconfig: config/gitconfig
-     ~/.gitignore_global: config/gitignore
-     ~/.gitattributes_global: config/gitattributes
+    # Git:
+    ~/.gitconfig: config/gitconfig
+    ~/.gitignore_global: config/gitignore
+    ~/.gitattributes_global: config/gitattributes
 
 # Setting up Visual Studio Code:
 - link:
-     # vscode:
-     "~/Library/Application Support/Code/User/settings.json":
+    # vscode:
+    "~/Library/Application Support/Code/User/settings.json":
         path: vscode/settings.json
         create: true
-     "~/Library/Application Support/Code/User/keybindings.json":
+    "~/Library/Application Support/Code/User/keybindings.json":
         path: vscode/keybindings.json
         create: true
 
 - shell:
-     - [bash ./vscode/install.sh, Installing Visual Studio Code extensions]
+    - [bash ./vscode/install.sh, Installing Visual Studio Code extensions]
